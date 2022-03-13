@@ -4,13 +4,14 @@ import { Header } from './Header';
 import { Footer } from './Footer';
 import { Tartalom } from './Tartalom';
 
+
 function App() {
   return (
     <div className="App">
       <header>
-      <Header/>;
+      <Header/>
       <div id='content' className='Elso-content'>
-        <Tartalom  db = {3}/>;
+        <Tartalom db = {3} />;
         </div>
       
       </header>
@@ -29,7 +30,7 @@ function App() {
         </a>
         
       </body>
-      <Footer/>;
+      <Footer/>
       
     </div>
   );

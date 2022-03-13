@@ -1,3 +1,4 @@
+import './Tartalom.css';
 export function Tartalom(props) {
   const db = props.db || 5;
   const contentDiv = [];
